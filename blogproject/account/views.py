@@ -3,7 +3,7 @@ from django.contrib.auth.forms import AuthenticationForm
 from django.contrib.auth import authenticate, login, logout
 from .forms import SignupForm
 
-# Create your views here.
+
 def login_view(request):
     # AuthenticationForm : 장고에서 제공하는 로그인 기능 폼
     if request.method =='POST':  # 유효성 검사
